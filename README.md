@@ -56,6 +56,10 @@ Includes unit tests for:
 
 Using `mockk`, Apollo testing support, and JUnit 5.
 
+## 📽 Demo
+
+![Demo](demo.gif)
+
 ## License
 
 MIT License. This project is for learning and demo purposes only.
