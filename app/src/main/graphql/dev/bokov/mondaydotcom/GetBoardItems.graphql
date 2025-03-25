@@ -1,0 +1,17 @@
+query GetBoardItems($boardIds: [ID!]!) {
+    boards(ids: $boardIds) {
+        id
+        name
+        items_page(limit: 100) { # for demo purposes
+            items {
+                id
+                name
+                column_values {
+                    id
+                    text
+                }
+            }
+        }
+    }
+}
+
