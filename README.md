@@ -56,9 +56,8 @@ Includes unit tests for:
 
 Using `mockk`, Apollo testing support, and JUnit 5.
 
-## 📽 Demo
-
-![Demo](demo.gif)
+<h2>📽 Demo</h2>
+<img src="demo.gif" width="700"/>
 
 ## License
 
