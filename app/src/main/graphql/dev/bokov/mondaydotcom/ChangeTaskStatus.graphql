@@ -1,0 +1,15 @@
+mutation ChangeTaskStatus(
+    $itemId: ID!
+    $columnId: String!
+    $value: JSON!
+    $boardId: ID!
+) {
+    change_column_value(
+        item_id: $itemId
+        column_id: $columnId
+        value: $value
+        board_id: $boardId
+    ) {
+        id
+    }
+}

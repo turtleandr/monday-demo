@@ -1,0 +1,21 @@
+query GetBoards {
+    boards {
+        id
+        name
+    }
+}
+
+
+query GetItemsByBoard($limit: Int!) {
+    items(limit: $limit) {
+        id
+        name
+        board {
+            id
+        }
+        column_values {
+            id
+            text
+        }
+    }
+}
