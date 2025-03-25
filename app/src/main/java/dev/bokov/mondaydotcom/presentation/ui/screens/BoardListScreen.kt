@@ -26,8 +26,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
-import dev.bokov.mondaydotcom.presentation.ui.comonents.BoardCard
-import dev.bokov.mondaydotcom.presentation.ui.comonents.ErrorContent
+import dev.bokov.mondaydotcom.presentation.ui.components.BoardCard
+import dev.bokov.mondaydotcom.presentation.ui.components.ErrorContent
 import dev.bokov.mondaydotcom.presentation.viewmodel.BoardListViewModel
 
 @OptIn(ExperimentalMaterialApi::class, ExperimentalMaterial3Api::class)

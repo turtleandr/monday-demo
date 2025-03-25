@@ -1,4 +1,4 @@
-package dev.bokov.mondaydotcom.presentation.ui.comonents
+package dev.bokov.mondaydotcom.presentation.ui.components
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
