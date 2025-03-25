@@ -1,4 +1,4 @@
-package dev.bokov.mondaydotcom.presentation.ui.comonents
+package dev.bokov.mondaydotcom.presentation.ui.components
 
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer

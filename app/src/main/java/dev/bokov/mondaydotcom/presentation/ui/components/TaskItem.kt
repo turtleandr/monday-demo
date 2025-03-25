@@ -18,7 +18,6 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import dev.bokov.mondaydotcom.domain.model.BoardStatusOption
 import dev.bokov.mondaydotcom.domain.model.Task
-import dev.bokov.mondaydotcom.presentation.ui.comonents.StatusBottomSheet
 
 @Composable
 internal fun TaskItem(
